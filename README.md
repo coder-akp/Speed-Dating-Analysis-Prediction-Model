@@ -1,8 +1,9 @@
+
 ---
 
 # Speed Dating Analysis and Prediction Model
 
-This repository presents a comprehensive analysis of the Speed Dating dataset from Kaggle. The project focuses on data preprocessing, feature engineering, exploratory data analysis, and the development of machine learning models to predict partner compatibility. The ultimate goal is to extract actionable insights on factors driving successful matches.
+This repository contains a comprehensive analysis and predictive model for speed dating data—all encapsulated within a single Jupyter Notebook. The project explores data preprocessing, visualization, and the development of machine learning models to predict partner compatibility based on participant demographics, ratings, and other features.
 
 ---
 
@@ -11,20 +12,13 @@ This repository presents a comprehensive analysis of the Speed Dating dataset fr
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Dependencies](#dependencies)
 - [License](#license)
-- [Project Notebook](#project-notebook)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
 ## Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Recommended: Anaconda distribution for environment management
-
-### Setup
 
 1. **Clone the Repository:**
 
@@ -33,14 +27,9 @@ This repository presents a comprehensive analysis of the Speed Dating dataset fr
    cd Speed-Dating-Analysis-and-Prediction-Model
    ```
 
-2. **Create and Activate a Virtual Environment (optional but recommended):**
+2. **Install Dependencies:**
 
-   ```bash
-   python -m venv env
-   source env/bin/activate   # On Windows: env\Scripts\activate
-   ```
-
-3. **Install Dependencies:**
+   Ensure you have Python 3.8 or higher installed, then run:
 
    ```bash
    pip install -r requirements.txt
@@ -50,32 +39,17 @@ This repository presents a comprehensive analysis of the Speed Dating dataset fr
 
 ## Usage
 
-### Running the Project
+Launch the Jupyter Notebook to explore the project:
 
-- **Jupyter Notebooks:**  
-  Launch Jupyter Notebook to explore the analysis and modeling steps:
+```bash
+jupyter notebook Speed_Dating_Analysis.ipynb
+```
 
-  ```bash
-  jupyter notebook notebooks/
-  ```
-
-- **Scripts:**  
-  If applicable, run the provided Python scripts from the command line:
-
-  ```bash
-  python src/main.py
-  ```
-
-### Notebooks Overview
-
-- **Exploratory Data Analysis:**  
-  Located in `notebooks/EDA.ipynb`, this notebook details data cleaning, visualization, and feature engineering.
-  
-- **Modeling and Evaluation:**  
-  Found in `notebooks/Modeling.ipynb`, this notebook covers the development, tuning, and evaluation of various classification models.
-  
-- **Documentation Notebook:**  
-  See the [Project Notebook](./Speed_Dating_Shared.ipynb) for a detailed markdown-driven overview of the project.
+Inside the notebook, you will find sections covering:
+- Data loading and cleaning
+- Feature engineering and transformation
+- Exploratory data analysis and visualizations
+- Model training, evaluation, and selection
 
 ---
 
@@ -84,38 +58,39 @@ This repository presents a comprehensive analysis of the Speed Dating dataset fr
 ```
 Speed-Dating-Analysis-and-Prediction-Model/
 │
-├── data/                  # Raw and processed datasets
-├── notebooks/             # Jupyter notebooks for EDA, modeling, and documentation
-├── src/                   # Source code scripts for data processing and model training
-├── docs/                  # Additional documentation files
-├── .gitignore             # Git ignore file for Python and Jupyter artifacts
-├── requirements.txt       # Project dependencies
-└── README.md              # This README file
+├── Speed_Dating_Analysis.ipynb  # Main Jupyter Notebook with complete analysis
+├── requirements.txt             # List of dependencies
+├── README.md                    # This README file
+└── LICENSE                      # Project license file (MIT License recommended)
 ```
 
 ---
 
-## Contributing
+## Dependencies
 
-Contributions are welcome! If you would like to contribute improvements or fixes, please:
+The project relies on the following Python packages:
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- imbalanced-learn
 
-1. Fork the repository.
-2. Create a new branch with a descriptive name.
-3. Make your changes and ensure everything passes your tests.
-4. Submit a pull request with a detailed description of your changes.
-
-For more details, refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+These are all listed in the `requirements.txt` file.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE), which allows for broad reuse with minimal restrictions.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Project Notebook
+## Acknowledgements
 
-For a comprehensive, markdown-based overview of the project, please see the [Project Notebook](./Speed_Dating_Shared.ipynb).
+- **Dataset:** Speed Dating dataset from Kaggle
+- **Tools:** Jupyter Notebook, Python, and various open-source libraries
+- **Collaborators:** Rikhard Volfsberger, Zharas Anet
+Feel free to contribute, report issues, or provide suggestions.
 
 ---
