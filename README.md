@@ -90,7 +90,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Dataset:** Speed Dating dataset from Kaggle
 - **Tools:** Jupyter Notebook, Python, and various open-source libraries
-- **Collaborators:** Rikhard Volfsberger, Zharas Anet
+- **Collaborators:** Rikhard Volfsberger, Zharas Anet 
+
+
 Feel free to contribute, report issues, or provide suggestions.
 
 ---
